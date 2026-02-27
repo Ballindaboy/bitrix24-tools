@@ -53,11 +53,11 @@ python collect.py --all     # Полный сбор (~10 мин)
 
 ## Ссылки на Bitrix24
 
-При упоминании сделки/задачи — давай ссылку:
+При упоминании сделки/задачи — давай ссылку (замени DOMAIN на домен из .env):
 
-- Задача: `https://ulyanovsk.bitrix24.ru/company/personal/user/1/tasks/task/view/{ID}/`
-- Сделка: `https://ulyanovsk.bitrix24.ru/crm/deal/details/{ID}/`
-- Контакт: `https://ulyanovsk.bitrix24.ru/crm/contact/details/{ID}/`
+- Задача: `https://DOMAIN.bitrix24.ru/company/personal/user/1/tasks/task/view/{ID}/`
+- Сделка: `https://DOMAIN.bitrix24.ru/crm/deal/details/{ID}/`
+- Контакт: `https://DOMAIN.bitrix24.ru/crm/contact/details/{ID}/`
 
 ---
 
@@ -66,7 +66,3 @@ python collect.py --all     # Полный сбор (~10 мин)
 1. **Только факты** — данные из снапшотов, без домыслов
 2. **Актуальность** — если данные важны, предложи обновить снапшоты
 3. **Конкретика** — имена, суммы, даты, ссылки
-
----
-
-**Компания:** TEXDAR | **Домен:** ulyanovsk.bitrix24.ru

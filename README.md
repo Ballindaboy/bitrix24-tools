@@ -2,6 +2,8 @@
 
 Сбор данных из Bitrix24 для работы с Claude Code.
 
+**Author:** Nail Musin | Telegram: [@MrNailMusin](https://t.me/MrNailMusin)
+
 ---
 
 ## Установка (один раз)
@@ -33,7 +35,7 @@ cp .env.example .env
 Открой `.env` и вставь свой webhook:
 
 ```
-BITRIX_WEBHOOK_URL=https://ulyanovsk.bitrix24.ru/rest/ТВОЙ_USER_ID/ТВОЙ_WEBHOOK_CODE/
+BITRIX_WEBHOOK_URL=https://YOUR_DOMAIN.bitrix24.ru/rest/USER_ID/WEBHOOK_CODE/
 ```
 
 **Как получить webhook:**
