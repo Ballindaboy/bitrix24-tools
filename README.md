@@ -10,7 +10,7 @@
 
 ```bash
 cd ~/Projects
-git clone https://github.com/nailmusin/bitrix24-tools.git
+git clone https://github.com/Ballindaboy/bitrix24-tools.git
 cd bitrix24-tools
 ```
 
