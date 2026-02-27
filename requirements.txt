@@ -1,0 +1,6 @@
+# Bitrix24 Tools - Dependencies
+# Python 3.9+
+
+# Core
+requests>=2.31.0
+python-dotenv>=1.0.0

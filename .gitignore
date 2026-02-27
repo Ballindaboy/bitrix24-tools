@@ -1,0 +1,23 @@
+# Снапшоты (локальные данные)
+snapshots/
+archive/
+
+# Секреты
+.private/
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
