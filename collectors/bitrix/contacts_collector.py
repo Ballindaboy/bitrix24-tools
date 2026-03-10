@@ -42,7 +42,7 @@ class ContactsCollector(BaseCollector):
         logger.info("Fetching contacts from Bitrix24 CRM...")
 
         contacts = self.bitrix.get_all('crm.contact.list', {
-            'select': ['*', 'UF_*'],
+            'select': ['*', 'UF_*', 'PHONE', 'EMAIL'],
             'order': {'DATE_MODIFY': 'DESC'}
         })
 
